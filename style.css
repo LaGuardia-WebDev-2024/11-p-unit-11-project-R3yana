@@ -6,6 +6,7 @@ body {
   background-attachment: fixed; 
 /*   margin-top: 10%; */
   font-family: Georgia, serif;
+ 
 }
 
 html{
@@ -15,12 +16,13 @@ html{
 
 #myCanvas {
   border: 1px solid black;
+   background-image: url("https://res.cloudinary.com/jerrick/image/upload/v1707401113/65c4df99f485f6001d076160.jpg")
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: pink;
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
