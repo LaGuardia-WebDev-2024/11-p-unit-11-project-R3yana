@@ -1,5 +1,9 @@
 var snowX = [100, 120, 160, 200];
 var snowY = [50, 70, 40, 20];
+var flowerImage= loadImage(" https://res.cloudinary.com/jerrick/image/upload/v1707401113/65c4df99f485f6001d076160.jpg")
+
+
+
 
 
 setup = function() {
@@ -9,6 +13,8 @@ setup = function() {
    textSize(40);
    for(var i = 0; i < snowX.length; i++){
      text("❆", snowX[i], snowY[i]);
+     
+     
    }
    
    fill(255,255,255);
@@ -41,11 +47,15 @@ text(myemojis{2},300,550);
 var emojiNum=0;
 while(emojiNum<myemojis.length){
 text (myemojis[emojiNum],10,30+emojiNum*30);
-emojiNum++;
-}
+emojiNum++;}
 
-    }; 
+    
+    
+    
+    
   
+image(flowerImage, 200,200,200,300);
+  }
     
 //Function Definition
 var drawUnicorn = function(unicornX, unicornY){
